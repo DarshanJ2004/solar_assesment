@@ -1,4 +1,3 @@
-Perfect! Here's the full `README.md` content — clean and ready to **copy-paste** directly into your file:
 
 ---
 
@@ -164,7 +163,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 🤝 Contact
 
-For questions, reach out at: `your-email@example.com`
+For questions, reach out at: `darshanjethva28@gmail.com`
 
 ```
 
