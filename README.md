@@ -55,7 +55,7 @@ project-folder/
 ### 1. 📦 Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/rooftop-solar-analysis.git
+git clone https://github.com/your-username/rooftop-solar-analysis.git](https://github.com/DarshanJ2004/solar_assesment.git
 cd rooftop-solar-analysis
 ````
 
