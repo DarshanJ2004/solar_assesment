@@ -1,9 +1,0 @@
-streamlit
-openai
-torch
-transformers
-opencv-python
-numpy
-requests
-pillow
-matplotlib
