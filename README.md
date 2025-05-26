@@ -1,34 +1,34 @@
-Certainly! Here's a complete and professional `README.md` file for your **AI-Powered Rooftop Solar Analysis Tool** — including setup instructions, usage guide, and project overview.
+Perfect! Here's the full `README.md` content — clean and ready to **copy-paste** directly into your file:
 
 ---
 
 ```markdown
 # 🌞 AI-Powered Rooftop Solar Analysis Tool
 
-This project is an intelligent web application that uses satellite-style rooftop images to analyze and assess the solar installation potential of residential or commercial buildings. Powered by computer vision and language models via OpenRouter API, it provides accurate reports, area estimation, and ROI predictions.
+An intelligent web application that analyzes rooftop satellite images to evaluate the potential for solar panel installation. It uses image processing and an LLM (via OpenRouter API) to generate professional reports with ROI estimates, usable area, and installation recommendations.
 
 ---
 
 ## 🚀 Features
 
-- Upload satellite-style rooftop images
-- Analyze usable area for solar panels
-- Generate installation recommendations
-- Estimate ROI, energy output, and payback period
-- User-friendly web interface using Streamlit
+- 📸 Upload satellite-style rooftop images
+- 📐 Analyze usable roof area for solar panel installation
+- 🧠 Generate intelligent solar installation reports using LLM
+- 📊 Estimate ROI, energy output, and payback period
+- 🖥️ User-friendly interface built with Streamlit
 
 ---
 
 ## 🧠 Technologies Used
 
 - Python
-- Streamlit (Web UI)
-- OpenCV (Image processing)
-- OpenRouter API (LLM integration)
-- PIL (Image handling)
+- Streamlit
+- OpenCV
+- Pillow (PIL)
+- OpenRouter API (LLM Integration)
 - NumPy
+- dotenv
 - Requests
-- dotenv (API key management)
 
 ---
 
@@ -38,14 +38,14 @@ This project is an intelligent web application that uses satellite-style rooftop
 
 project-folder/
 │
-├── app.py                    # Streamlit web app entry point
-├── image\_utils.py           # Image processing utilities
-├── llm\_engine.py            # Handles OpenRouter API calls
-├── requirements.txt         # List of dependencies
-├── .env                     # Environment variables (API key)
-├── README.md                # Project documentation
-├── example\_images/          # Sample rooftop images
-└── outputs/                 # Generated reports (optional)
+├── app.py                  # Main Streamlit app
+├── image\_utils.py         # Image processing functions
+├── llm\_engine.py          # OpenRouter LLM report generation
+├── requirements.txt       # Python dependencies
+├── .env                   # Environment variables (API key)
+├── README.md              # Project documentation
+├── example\_images/        # Sample rooftop images
+└── outputs/               # Generated reports (optional)
 
 ````
 
@@ -60,7 +60,7 @@ git clone https://github.com/your-username/rooftop-solar-analysis.git
 cd rooftop-solar-analysis
 ````
 
-### 2. 🐍 Create and Activate Virtual Environment
+### 2. 🐍 Create and Activate a Virtual Environment
 
 **Windows:**
 
@@ -84,15 +84,15 @@ pip install -r requirements.txt
 
 ---
 
-### 4. 🔑 Add Your OpenRouter API Key
+### 4. 🔑 Set Up API Key
 
-Create a `.env` file in the root folder with the following content:
+Create a `.env` file in the root folder:
 
 ```env
 OPENROUTER_API_KEY=your_openrouter_api_key_here
 ```
 
-You can get your free API key by signing up at [https://openrouter.ai](https://openrouter.ai).
+> 🔗 Get your API key from: [https://openrouter.ai](https://openrouter.ai)
 
 ---
 
@@ -102,78 +102,73 @@ You can get your free API key by signing up at [https://openrouter.ai](https://o
 streamlit run app.py
 ```
 
-It will open a local web app at `http://localhost:8501`
+It will open automatically in your browser at `http://localhost:8501`.
 
 ---
 
 ## 🖼️ How to Use
 
-1. Launch the app.
-2. Upload a clear rooftop image (satellite style).
-3. Wait for analysis — the app will:
+1. Upload a rooftop image (satellite-style, top-down)
+2. The app will:
 
-   * Process the image to find usable area
-   * Send it to the LLM for generating a report
-4. View the result:
+   * Preprocess the image
+   * Estimate usable solar area
+   * Send a structured prompt to OpenRouter
+3. View a complete report with:
 
-   * Estimated solar coverage area
-   * Recommended panel count
+   * Panel count suggestion
+   * ROI and cost analysis
    * Installation guide
-   * ROI, payback time, and more
 
 ---
 
-## 🧪 Example
-
-You can test with images inside the `example_images/` folder provided.
-
----
-
-## 🧰 Example Output
-
-Sample Output Snippet:
+## 🧪 Example Output
 
 ```
-Estimated Usable Area: 32.5 m²
-Suggested Panel Count: 13 (250W each)
-Expected Monthly Output: 390 kWh
-Estimated Payback Period: 4.2 years
-ROI Over 20 Years: ~180%
+Estimated Usable Area: 28.3 m²
+Suggested Panel Count: 11 (300W each)
+Estimated Monthly Output: 330 kWh
+Expected Payback Period: 4.5 years
+20-Year ROI: ~175%
 ```
+
+> Use test images from `example_images/` folder.
 
 ---
 
 ## 📈 Future Improvements
 
-* Automatic roof segmentation using semantic segmentation models
-* Cloud-based image sourcing via Google Maps API
-* Integration with real-time solar pricing APIs
+* Automated rooftop detection using deep learning
+* Weather and shadow impact modeling
+* Google Maps / Bing Maps integration
 * PDF export of reports
-* User authentication and dashboard for solar installers
+* Multi-image batch processing
 
 ---
 
-## 💬 Questions?
+## 📦 Project Deliverables
 
-For help or feature requests, open an issue on the [GitHub repo](https://github.com/your-username/rooftop-solar-analysis) or email \[[your-email@example.com](mailto:your-email@example.com)].
+* ✅ Complete source code
+* ✅ Setup guide
+* ✅ Example images
+* ✅ Local run instructions
+* ✅ AI-generated reports
 
 ---
 
 ## 📄 License
 
-This project is open-source under the MIT License.
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 🤝 Contact
+
+For questions, reach out at: `your-email@example.com`
 
 ```
 
 ---
 
-## ✅ Next Step
-
-Replace:
-
-- `your-username` with your actual GitHub username
-- `your_openrouter_api_key_here` with your real API key
-- `your-email@example.com` with your contact (if you want)
-
-Would you like me to also generate a sample `requirements.txt`?
+Let me know if you'd like help filling in any missing files (like `requirements.txt`, `.env.example`, or sample code snippets).
 ```
